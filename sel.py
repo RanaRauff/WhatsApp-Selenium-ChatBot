@@ -44,7 +44,6 @@ if __name__ == "__main__":
 
     wb = WaBot(group_name="Chota F8")
     # wb.rauff_speak("How are you my friend")
-    # wb.send_message(response="Hello JI")
     while True:
         ww = wb.read_message()
         wb.rauff_speak(str(ww))

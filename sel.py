@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 class WaBot:
 
-    def __init__(self, group_name="Test Group"):
+    def __init__(self, group_name="PUBG ki fauj kare mauj😎"):
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
         self.driver.get("https://web.whatsapp.com")
         self.last_message = []

@@ -4,4 +4,4 @@ from chatterbot import ChatBot
 chatbot = ChatBot('Rauff')
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
-print("finished")
+print("Finished")

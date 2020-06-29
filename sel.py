@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 class WaBot:
 
-    def __init__(self, group_name="Movie-Briju Topper party"):
+    def __init__(self, group_name="PUBG ki fauj kare mauj😎"):
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
         self.driver.get("https://web.whatsapp.com")
         self.last_message = []
@@ -42,7 +42,7 @@ class WaBot:
 
 if __name__ == "__main__":
 
-    wb = WaBot(group_name="Chota F8")
+    wb = WaBot(group_name="PUBG ki fauj kare mauj😎")
     # wb.rauff_speak("How are you my friend")
     while True:
         ww = wb.read_message()
